@@ -1,178 +1,212 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="scroll-smooth">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agathos | Escola Cristã</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@300;400;600&display=swap"
-        rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        agathosVermelho: '#8D1908',
-                        agathosBege: '#D5B583',
-                        agathosBranco: '#FFFFFF',
-                    },
-                    fontFamily: {
-                        calistoga: ['Calistoga', 'cursive'],
-                        inter: ['Inter', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Agathus</title>
 </head>
+<body>
+    <header>
+        <div class="logo displayNone">
+           <a href="index.html">
+            <img src="img/favicon.png" alt="Logo Agathus" id="logo">
+           </a>
+        </div>
+    
+        <button class="menu-toggle" id="menu-btn">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </button>
+    
+        <nav class="nav-principal opacidade0" id="nav-menu">
+            <ul class="ulPrincipal">
+                <li class="agathus-li"><a href="#proposta" class="agathus-a">PROPOSTA</a></li>
+                <li class="agathus-li"><a href="#historia" class="agathus-a">NOSSA HISTÓRIA</a></li>
+                <li class="agathus-li"><a href="#diferencial" class="agathus-a">DIFERENCIAIS</a></li>
+                <li class="agathus-li"><a href="https://www.instagram.com/ec.agathos/" target="_blank" class="agathus-a">INSTAGRAM</a></li>
+                <li class="agathus-li">
+                    <a href="https://wa.me/5588997819093" target="_blank" id="link-zap" class="agathus-a"> WHATSAPP</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <div class="agathus-zap displayNone" id="zap-header">
+            <a href="https://wa.me/5588997819093" target="_blank" id="link-zap">Contato via Whatsapp</a>
+        </div>
+    </header>
 
-<body class="font-inter bg-agathosBranco text-gray-800">
+    </header>
 
-    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-agathosBege/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0">
-                    <span class="font-calistoga text-3xl text-agathosVermelho tracking-wider">AGATHOS</span>
+    <section class="hero">
+        <section class="section-saiba">
+            
+            <div class="divNivel">
+                <h2>Níveis de ensino</h2>
+                <p class="nivel">
+                    Atendemos: Educação Infantil e Ensino Fundamental 1.
+                    Turmas: Infantil 2 ao 2º ano.
+                </p>
+
+                <a href="https://wa.me/5588997819093" target="_blank" class="saibaMais">
+                    Saiba mais
+                </a>
+            </div>
+        </section>
+
+        <div class="agathus-slogam">
+            <h2 id="slogam">
+                Orientando mentes <br> e corações  para o <br>conhecimento de Deus.
+            </h2>
+
+            <p class="descricao">
+                Educação fundamentada na abordagem por 
+                princípios, unindo excelência acadêmica e formação do caráter.
+            </p>
+        </div>
+    </section>
+
+    <!-- Proposta -->
+
+    <section class="history" id="proposta">
+        <h2>Propósta pedagógica</h2>
+
+        <p class="ph">
+            Nossa proposta pedagógica é fundamentada na abordagem educacional por princípios, 
+            que compreende que todo conhecimento parte de Deus e deve conduzir o aluno a enxergar 
+            a vida à luz da verdade bíblica. Ensinamos cada conteúdo conectando-o a princípios eternos,
+            ajudando a criança a compreender não apenas o “o que” aprender, mas o “porquê” e “para quê” aprender.
+        </p>
+
+           <p class="ph"> 
+                Assim, unimos excelência acadêmica, formação do caráter e desenvolvimento integral, respeitando as 
+                fases da infância e valorizando o protagonismo do aluno no processo de aprendizagem. Buscamos formar 
+                crianças que pensem, 
+                comuniquem-se bem, ajam com responsabilidade e reconheçam seu chamado para servir a Deus e ao próximo.
+            </p>
+
+    </section>
+
+
+    <!-- contando a história -->
+    <section class="history" id="historia">
+        <h2>Nossa história</h2>
+
+        <p class="ph">
+            A Agathos nasceu de um chamado silencioso, daqueles que começam como inquietação no 
+            coração e, aos poucos, se tornam convicção. Não surgiu de um plano perfeito, mas da 
+            certeza de que crianças precisam de mais do que conteúdo: precisam de verdade,
+             direção e amor. Entre orações, conversas e pequenos passos, foi tomando forma
+              o sonho de uma escola que educa com propósito e fundamentada na Palavra.
+        </p>
+
+           <p class="ph"> 
+            Desde o início, a Agathos foi pensada como um lugar onde fé e conhecimento caminham
+             juntos, onde cada criança é vista como criação de Deus, única, valiosa e cheia de 
+             potencial. Aqui, ensinar é mais do que transmitir informações; é formar caráter, 
+             cultivar virtudes e apontar caminhos que permanecem para toda a vida.
+            </p>
+
+            <p class="ph"> 
+                Hoje, a Agathos é fruto de muitas mãos, muitos joelhos dobrados e muitos corações
+                comprometidos . É uma história que continua sendo escrita todos os dias, em cada
+                sala, em cada encontro, em cada vida tocada. Uma escola que existe para glorificar
+                a Deus e servir às famílias com excelência.
+            </p>
+    </section>
+
+    <!-- fim de história -->
+
+    <section class="diferencial-mae" id="diferencial">
+        <h2> Diferenciais da Agathus</h2>
+        <div class="diferencial-content">
+            <div class="diferencial-item">
+                <div class="principios">
+                    <h3>Abordagem por princípios</h3>
+                    
+                    <ul class="principios">
+                        <li class="principios-li">
+                            Educação fundamentada na Palavra de Deus, com integração entre fé, conhecimento e vida.
+                        </li>
+                        <li class="principios-li">
+                            Abordagem educacional por princípios, conectando todo conteúdo a valores eternos.
+                        </li>
+                    </ul>
                 </div>
-                <div class="hidden md:block space-x-8 font-semibold text-sm uppercase tracking-widest text-gray-600">
-                    <a href="#proposta" class="hover:text-agathosVermelho transition">Proposta</a>
-                    <a href="#historia" class="hover:text-agathosVermelho transition">Nossa História</a>
-                    <a href="#diferenciais" class="hover:text-agathosVermelho transition">Diferenciais</a>
+            </div>
+
+            <div class="diferencial-item">
+                <div class="principios">
+                    <h3>Formação do caráter</h3>
+                    <ul class="principios">
+                        <li class="principios-li">
+                            Formação intencional de caráter, virtudes e responsabilidade.
+                        </li>
+                        <li class="principios-li">
+                            Ambiente seguro, acolhedor e estruturado para o desenvolvimento integral da criança.
+                        </li>
+                        <li class="principios-li">
+                            Parceria ativa com as famílias no processo educativo.
+                        </li>
+                    </ul>
                 </div>
-                <div>
-                    <a href="https://wa.me/5588997819093" target="_blank"
-                        class="bg-agathosVermelho text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-agathosBege hover:text-agathosVermelho transition-all duration-300 shadow-lg">
-                        Contato via WhatsApp
+            </div>
+
+            <div class="diferencial-item">
+                <div class="principios">
+                    <h3>Disciplinhas extras</h3>
+                    <ul class="principios">
+                        <li class="principios-li">
+                            Disciplinas complementares que enriquecem a formação, como formação cristã, inglês e estudos musicais.
+                        </li>
+                        <li class="principios-li">
+                            Cultura escolar que valoriza ordem, beleza, respeito e propósito.
+                        </li>
+                        <li class="principios-li">
+                            Turmas organizadas para acompanhamento individualizado.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-itens">
+            <div class="itens-footer">
+                <h4>Agathus</h4>
+                <br>
+                <p>
+             <a href="https://wa.me/5588997819093" id="zap" target="_blank">
+                <img src="img/zap.png" alt="" id="img-zap">
+                Whatsapp
+            </a>
+                </p>
+            </div>
+            <div class="itens-footer">
+                <h4>Endereço</h4>
+                <br>
+                <p id="local">
+                    <img src="img/place.png" alt="" id="place">
+                    Av Salmito Ferreira, 567 <br>
+                    Cruzeiro - São Benedito
+                </p>
+            </div>
+            <div class="itens-footer">
+                <h4>Siga-nos</h4>
+                <br>
+                <p>
+                    <a href="#" id="insta">
+                        <img src="img/insta.png" alt="" id="img-insta">
+                        Instagram: @ec.agathus
                     </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <section class="relative bg-agathosBranco py-20 lg:py-32 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
-            <div class="z-10">
-                <h1 class="font-calistoga text-5xl lg:text-7xl text-agathosVermelho leading-tight">
-                    Orientando mentes e corações
-                </h1>
-                <p class="mt-6 text-xl text-agathosBege font-semibold italic">
-                    "Para o conhecimento de Deus"
                 </p>
-                <p class="mt-4 text-gray-600 text-lg max-w-lg">
-                    Educação fundamentada na abordagem por princípios, unindo excelência acadêmica e formação do
-                    caráter.
-                </p>
-                <div class="mt-10 flex gap-4">
-                    <button
-                        class="bg-agathosBege text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition shadow-md">Saiba
-                        Mais</button>
-                    <a href="https://instagram.com/ec.agathos" target="_blank"
-                        class="border-2 border-agathosBege text-agathosBege px-8 py-4 rounded-lg font-bold hover:bg-agathosBege hover:text-white transition">Instagram</a>
-                </div>
             </div>
-            <div class="relative">
-                <div class="absolute -top-10 -right-10 w-64 h-64 bg-agathosBege opacity-20 rounded-full blur-3xl"></div>
-                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80"
-                    alt="Criança aprendendo" class="rounded-2xl shadow-2xl relative z-10 border-8 border-white">
-            </div>
-        </div>
-    </section>
-
-    <section id="proposta" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="font-calistoga text-4xl text-agathosVermelho">Níveis de Ensino</h2>
-                <div class="w-24 h-1 bg-agathosBege mx-auto mt-4"></div>
-            </div>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-agathosVermelho">
-                    <h3 class="font-calistoga text-2xl text-agathosVermelho mb-4">Educação Infantil</h3>
-                    <p class="text-gray-600">Um ambiente seguro e acolhedor onde cada criança (Infantil 2 ao 5) é vista
-                        como criação valiosa de Deus.</p>
-                </div>
-                <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-agathosBege">
-                    <h3 class="font-calistoga text-2xl text-agathosVermelho mb-4">Ensino Fundamental 1</h3>
-                    <p class="text-gray-600">Foco no desenvolvimento integral e no protagonismo do aluno (até o 2º ano),
-                        conectando o saber a valores eternos.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="historia" class="py-20">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="font-calistoga text-4xl text-agathosVermelho mb-8">Nossa História</h2>
-            <div class="space-y-6 text-lg text-gray-700 leading-relaxed italic">
-                <p>
-                    A Agathos nasceu de um chamado silencioso, daqueles que começam como inquietação no coração e,
-                    aos poucos, se tornam convicção. Não surgiu de um plano perfeito, mas da certeza de que crianças
-                    precisam de mais do que conteúdo: precisam de verdade, direção e amor. Entre orações, conversas e
-                    pequenos passos, foi tomando forma o sonho de uma escola que educa com propósito e fundamentada na
-                    Palavra.
-                </p>
-
-                <p>
-                    Desde o início, a Agathos foi pensada como um lugar onde fé e conhecimento caminham juntos, onde
-                    cada criança é vista como criação de Deus, única, valiosa e cheia de potencial. Aqui, ensinar é mais
-                    do que transmitir informações; é formar caráter, cultivar virtudes e apontar caminhos que permanecem
-                    para toda a vida.
-                </p>
-
-                <p>
-                    Hoje, a Agathos é fruto de muitas mãos, muitos joelhos dobrados e muitos corações comprometidos
-                    . É uma história que continua sendo escrita todos os dias, em cada sala, em cada encontro, em cada
-                    vida
-                    tocada. Uma escola que existe para glorificar a Deus e servir às famílias com excelência.
-                </p>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="diferenciais" class="py-20 bg-agathosVermelho text-white">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="font-calistoga text-4xl text-agathosBege text-center mb-16">Diferenciais Agathos</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="p-6 border border-agathosBege/30 rounded-lg hover:bg-white/5 transition">
-                    <h4 class="font-bold text-agathosBege mb-2">Abordagem por Princípios</h4>
-                    <p class="text-sm opacity-90">Todo conteúdo é conectado a valores eternos e bíblicos.</p>
-                </div>
-                <div class="p-6 border border-agathosBege/30 rounded-lg hover:bg-white/5 transition">
-                    <h4 class="font-bold text-agathosBege mb-2">Formação de Caráter</h4>
-                    <p class="text-sm opacity-90">Desenvolvimento intencional de virtudes e responsabilidade.</p>
-                </div>
-                <div class="p-6 border border-agathosBege/30 rounded-lg hover:bg-white/5 transition">
-                    <h4 class="font-bold text-agathosBege mb-2">Disciplinas Extras</h4>
-                    <p class="text-sm opacity-90">Inglês, formação cristã e estudos musicais que enriquecem a jornada.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-neutral-900 text-agathosBranco py-16">
-        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-12">
-            <div>
-                <span class="font-calistoga text-3xl text-agathosBege">AGATHOS</span>
-                <p class="mt-4 opacity-70">Escola que educa com propósito e fundamentada na Palavra.</p>
-            </div>
-            <div>
-                <h4 class="font-bold text-agathosBege mb-4">Contato</h4>
-                <p class="opacity-70">Av Salmito Ferreira, 567<br>Cruzeiro - São Benedito</p>
-                <p class="mt-2 opacity-70">WhatsApp: (88) 99781-9093</p>
-            </div>
-            <div>
-                <h4 class="font-bold text-agathosBege mb-4">Siga-nos</h4>
-                <a href="https://instagram.com/ec.agathos" target="_blank"
-                    class="hover:text-agathosBege transition">Instagram: @ec.agathos</a>
-            </div>
-        </div>
-        <div class="text-center mt-12 pt-8 border-t border-white/10 opacity-50 text-sm">
-            <p>&copy; 2026 Agathos. Desenvolvido com excelência.</p>
         </div>
     </footer>
-
+    <script src="js/script.js" defer></script>
 </body>
-
 </html>
