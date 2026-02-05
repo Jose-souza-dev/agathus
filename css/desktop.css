@@ -80,7 +80,7 @@ img#logo{
     text-decoration: none;
 }
 #link-zap:hover{
-    color: #8D1908;
+    color: #D5B583;
 }
 
 /* ------------------------------ */
@@ -94,12 +94,13 @@ img#logo{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s;
 }
 
 .agathus-zap:hover{
     width: 260px;
     height: 35px;
-    background-color: #D5B583;
+    background-color: #8D1908;
     border-radius: 20px;
     margin-right: 20px;
     display: flex;
