@@ -1,4 +1,4 @@
-@media(min-width:1200px){
+@media(min-width:1024px){
 
     /* FONTS */
 
@@ -44,8 +44,12 @@ header{
     left: 0;
     z-index: 1000; /* Garante que fique acima de tudo */
 }
+
+.menu-toggle{
+    display: none;
+}
 .nav-principal{
-    margin-left: 140px;
+    margin-left: 60px;
 }
 img#logo{
     width: 50px;
@@ -360,6 +364,10 @@ p#local{
     width: 22px;
     height: 22px;
     margin-right: 10px;
+}
+
+.displayZero{
+    display: none;
 }
 
 } /*Fim da media*/
